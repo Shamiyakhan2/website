@@ -1,0 +1,117 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background: #004080;
+  color: #fff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #ffcc00;
+}
+
+header nav .cta {
+  background: #ffcc00;
+  color: #004080;
+  padding: 8px 15px;
+  border-radius: 5px;
+}
+
+header nav .cta:hover {
+  background: #fff;
+  color: #004080;
+}
+
+/* Hero Section (Home page only) */
+.hero {
+  background: url('images/campus.jpg') no-repeat center center/cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.3em;
+}
+
+/* Container */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container h1 {
+  margin-bottom: 15px;
+  color: #004080;
+}
+
+/* Footer */
+footer {
+  background: #004080;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+
+/* Learn More Button */
+.learn-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.learn-btn:hover {
+  background: #0056b3;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Academics - SIWS College</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .programs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .program-card {
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .program-card:hover {
+      transform: translateY(-5px);
+    }
+    .program-card h3 {
+      margin-bottom: 10px;
+      color: #004080;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logo.png" alt="College Logo">
+      <h2>SIWS College</h2>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="academics.html" class="active">Academics</a>
+      <a href="studentlife.html">Student Life</a>
+      
+      <a href="contact.html" class="cta">Contact Us</a>
+    </nav>
+  </header>
+
+  <section class="container">
+    <h1>Academics</h1>
+    <p>SIWS College offers a wide range of undergraduate and postgraduate programs that focus on academic excellence, practical learning, and skill development.</p>
+
+    <h2>Undergraduate Programs</h2>
+    <div class="programs">
+      <div class="program-card">
+        <h3>Bachelor of Commerce (B.Com)</h3>
+        <p>Comprehensive understanding of commerce, finance, accounting, and business management.</p>
+      </div>
+      <div class="program-card">
+        <h3>Bachelor of Science (B.Sc)</h3>
+        <p>Strong foundation in core science subjects with opportunities for research and practical applications.</p>
+      </div>
+      <div class="program-card">
+        <h3>Bachelor of Science in Information Technology (B.Sc IT)</h3>
+        <p>Focused on programming, databases, networking, and modern IT solutions for the digital era.</p>
+      </div>
+    </div>
+
+    <h2>Postgraduate Programs</h2>
+    <div class="programs">
+      <div class="program-card">
+        <h3>Master of Commerce (M.Com)</h3>
+        <p>Advanced learning in commerce, finance, and business strategies.</p>
+      </div>
+      <div class="program-card">
+        <h3>Master of Science (M.Sc)</h3>
+        <p>Specialized knowledge in science disciplines with research opportunities.</p>
+      </div>
+      <div class="program-card">
+        <h3>Master of Science in Information Technology (M.Sc IT)</h3>
+        <p>In-depth focus on advanced IT concepts, data science, and software development.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SIWS College | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
